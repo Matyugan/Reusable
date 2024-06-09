@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
+const phonebook = {
+  marcus: "+380445554433",
+  john: "+380445554433",
+  george: "+380445554433",
+};
 
-const phonebook = null;
-
-const findPhoneByName = null;
-
+const findPhoneByName = (name) => phonebookSec[name.toLowerCase()];
 module.exports = { phonebook, findPhoneByName };
